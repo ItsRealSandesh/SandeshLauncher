@@ -1,0 +1,44 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# SandeshLauncher User & Auth Data (CRITICAL: Never commit tokens or credentials)
+*.auth/
+auth/*.json
+*.keyring
+minecraft_shared/
+cache/
+runtimes/
+settings.json
+*.part
+
+# Temporary files & archives
+*.tmp
+temp_*
+*.log
+sandesh_diagnostics.txt
+
+# Distribution & Build
+build/
+dist/
+*.egg-info/
+*.zip
+*.tar.gz
+*.tar.xz
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
